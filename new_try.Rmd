@@ -1,0 +1,46 @@
+---
+title: "New try"
+author: "Sachin"
+date: "May 10, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Learning R Makrdown commands and Github Repository Commands
+
+R studio- R Markdown- New File for Documentaion
+
+Enter into your local host- 
+
+~/Desktop
+
+mkdir Github # make your desired folder
+
+mv gethub* Github/ # it will move all the files which are named to gethub into the Github folder.
+
+mv gethub_commands.html Github/ # to send one by one file.
+
+git init #Initialized empty git repository.
+
+git remote add origin https://github.com/singhsachinosu/Github-and-R-Markdown.git # neeed to make a Github new repository of desired name and take copy the location and paste to above mentioned command.
+
+git add
+
+git status
+
+open R on command line
+
+knitr::knit(input="gethub_commands.Rmd", output="README.md") # For knitting the file.
+
+then quit R - q()
+
+git add README.md # Reading the file.
+
+git status
+
+git commit -m "Github repository commands" README.md
+
+git push origin master
