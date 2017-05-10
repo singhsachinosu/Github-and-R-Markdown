@@ -39,3 +39,10 @@ git status
 git commit -m "Github repository commands" README.md
 
 git push origin master
+
+# errors when exist due to adding new file use the command
+
+git remote add origin https://github.com/singhsachinosu/Github-and-R-Markdown.git # to add new file.
+
+
+
